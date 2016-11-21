@@ -1,0 +1,94 @@
+.logo h2 {
+  font-size: 18px;
+  color: #fff;
+  margin: 0;
+  margin-top: 10px;
+}
+.logo h2 small {
+  display: block;
+  color: #fff;
+}
+#header {
+  text-align: center;
+  border-bottom: 1px solid #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+#header .navbar-collapse li a {
+  color: #fff;
+}
+#header .navbar-collapse li a:hover {
+  background: transparent;
+}
+#header .navbar-collapse li a:active {
+  background: transparent;
+}
+#header .navbar-collapse li a:focus {
+  background: transparent;
+}
+#banner {
+  padding: 0;
+}
+#banner img {
+  width: 100%;
+  display: block;
+}
+.join {
+  margin-left: 20px;
+}
+.join .btn {
+  border-radius: 34px;
+  background: transparent;
+  border-color: #fff;
+  vertical-align: middle;
+  margin-top: 10px;
+}
+@media all and (min-width: 768px) {
+  .navbar-collapse.collapse {
+    display: inline-block !important;
+  }
+}
+@media all and (max-width: 768px) {
+  .logo {
+    float: left;
+  }
+  .join {
+    display: none;
+  }
+  #header {
+    background: rgba(0, 0, 0, 0.5);
+    border: 0;
+    position: fixed;
+  }
+  .navbar-toggle .icon-bar {
+    background: #fff;
+  }
+}
+.menu .row,
+.menu .row > div,
+.menu .row > div > div {
+  border: 0;
+}
+.menu,
+.menu .row {
+  height: 180px;
+}
+.menu .title {
+  border: 1px dashed #ccc !important;
+  border-radius: 10px ;
+  height: 100%;
+}
+.menu .menuContent,
+.menu .menuContent div {
+  height: 100%;
+  text-align: center;
+}
+.menu .menuContent img {
+  display: block;
+  margin: 20px auto;
+}
+.main .row {
+  height: 375px;
+}
